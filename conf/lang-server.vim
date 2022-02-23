@@ -53,3 +53,12 @@ if executable('rls')
     "autocmd BufWritePre *.rs LspDocumentFormatSync
     autocmd FileType rust call s:configure_lsp()
 endif
+
+if executable('gopls')
+    autocmd User lsp_setup call lsp#register_server({
+        \ 'name': 'gopls',
+        \ 'cmd': {server_info->['gopls']},
+        \ 'whitelist': ['go'],
+        \ })
+    autocmd FileType go call s:configure_lsp()
+endif
