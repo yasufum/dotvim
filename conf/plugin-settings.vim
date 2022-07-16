@@ -3,6 +3,10 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowLineNumbers=1
 let NERDTreeShowHidden = 1
 
+" Deepl
+nnoremap <Leader>t :DeeplOnCursor<CR>
+vnoremap <Leader>t :Deepl<CR>
+
 " make sure relative line number is used
 autocmd FileType nerdtree setlocal relativenumber
 
