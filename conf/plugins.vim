@@ -74,5 +74,10 @@ Plug 'yasufum/vim-os-unittestr'
 
 Plug 'rust-lang/rust.vim'
 
+Plug 'elixir-lang/vim-elixir'
+Plug 'mattreduce/vim-mix'
+
+Plug 'leafgarland/typescript-vim'
+
 " Initialize plugin system
 call plug#end()
