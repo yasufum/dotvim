@@ -75,6 +75,8 @@ let g:lsp_async_completion = 1
 Plug 'tyru/current-func-info.vim'
 Plug 'yasufum/vim-os-unittestr'
 
+Plug 'yasufum/vim-deepl'
+
 Plug 'rust-lang/rust.vim'
 
 Plug 'elixir-lang/vim-elixir'
