@@ -84,5 +84,7 @@ Plug 'mattreduce/vim-mix'
 
 Plug 'leafgarland/typescript-vim'
 
+Plug 'ziglang/zig.vim'
+
 " Initialize plugin system
 call plug#end()
