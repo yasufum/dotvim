@@ -13,7 +13,8 @@ autocmd FileType nerdtree setlocal relativenumber
 " make sure relative line number is used
 autocmd FileType nerdtree setlocal relativenumber
 " 'jpo/vim-railscasts-theme'
-colorscheme railscasts
+"colorscheme railscasts
+colorscheme tir_black
 
 " 'plasticboy/vim-markdown'
 let g:vim_markdown_folding_disabled = 1
